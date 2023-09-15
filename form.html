@@ -1,1 +1,42 @@
 
+<html>
+<head>
+  <link rel="stylesheet" href="form.css">
+  <script type="module" src="src/index.js"></script>
+  <title>Fake Stack Overflow</title>
+</head>
+<body>
+  <div id="header" class="header">
+    <input type="text" placeholder="Search..."/>
+    <h1 id="title">Fake Stack Overflow</h1>
+  </div>
+
+  <div class="sidenav">
+    <a href="index.html">Questions</a>
+    <a href="tags.html">Tags</a>
+  </div>
+
+  <div class="main">
+    <form class="quest">
+
+      <label for="questionTitle" id="questTitle">Question Title*</label><br>
+      <h4 id="titleError">Limit title to 100 chacter max</h4>
+      <input type="text" id="questionTitle" name="qTitle" maxlength="100" required>
+
+      <label for="questionText" id="text">Question Text*</label><br>
+      <h4 id="textError"> Add Details</h4>
+      <textarea type="text" id="questionText" required></textarea>
+
+      <label for="tagText" id="tag"> Tags*</label><br>
+      <h4 id="tagError"> Add keywords seperated by a space</h4>
+      <textarea type="text" id="tagText" required></textarea>
+
+      <label for="userName" id="user">Username*</label><br>
+      <textarea type="text" id="userName" required></textarea>
+
+      <input id="post" type="submit" value="Post">
+
+    </form>
+  </div>
+</body>
+</html>
