@@ -80,7 +80,7 @@ top: 80px;
   text-decoration: none;
   font-size: 25px;
   text-align: center;
-  color: #818181;
+  color: blue;
   display: block; 
 }
 
@@ -91,8 +91,6 @@ top: 80px;
 }
 
 .question {
-  border-style: solid;
-  border-color: red;
   margin-left: 200px;
   top: 110px;
   position: absolute;
@@ -100,11 +98,26 @@ top: 80px;
 
 #form {
   display: none;
+  margin: 20px 200px;
 }
 
 #form input[type=submit]{
   font-size: 20px;
   background-color: royalblue;
+  border-style: solid;
+  border-color: black;
   color: white;
+  margin-top: 20px;
+  width: 150px;
+}
+
+#form input[type=submit]:hover {
+  font-size: 20px;
+  background-color: darkblue;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  margin-top: 20px;
+  width: 150px;
 }
 /* Add CSS stylesheet *
