@@ -84,12 +84,27 @@ top: 80px;
   display: block; 
 }
 
+.sidenav a:hover {
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
 .question {
   border-style: solid;
   border-color: red;
-  
   margin-left: 200px;
   top: 110px;
   position: absolute;
+}
+
+#form {
+  display: none;
+}
+
+#form input[type=submit]{
+  font-size: 20px;
+  background-color: royalblue;
+  color: white;
 }
 /* Add CSS stylesheet *
