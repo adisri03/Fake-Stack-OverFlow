@@ -77,7 +77,7 @@ export default class Model {
     };
   }
   // add methods to query, insert, and update the model here. E.g.,
-  // getAllQstns() {
-  //   return this.data.questions;
-  // }
+  getAllQstns() {
+     return this.data.questions;
+  }
 }

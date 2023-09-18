@@ -27,23 +27,34 @@
     </div>
   </div>
 
+  <div class="q1">
+    <p id="test"></p>
+    <script src="src/model.js">
+      document.getElementById("demo").innerHTML = this.data
+    </script>
+  </div>
+
   <div class="question">
     <form class="quest" id="form">
 
-      <label for="questionTitle" id="questTitle">Question Title*</label><br>
+      <h1>Question Title*</h1>
       <h4 id="titleError">Limit title to 100 chacter max</h4>
-      <input type="text" id="questionTitle" name="qTitle" maxlength="100" required>
+      <input type="text" id="questionTitle" name="qTitle">
+      <span></span>
 
-      <label for="questionText" id="text">Question Text*</label><br>
+      <h1>Question Text*</h1>
       <h4 id="textError"> Add Details</h4>
-      <textarea type="text" id="questionText" required></textarea>
+      <textarea type="text" id="questionText"></textarea>
+      <span></span>
 
-      <label for="tagText" id="tag"> Tags*</label><br>
+      <h1>Tags*</h1>
       <h4 id="tagError"> Add keywords seperated by a space</h4>
-      <textarea type="text" id="tagText" required></textarea>
+      <textarea type="text" id="tagText"></textarea>
+      <span></span>
 
-      <label for="userName" id="user">Username*</label><br>
-      <textarea type="text" id="userName" required></textarea>
+      <h1>Username*</h1>
+      <textarea type="text" id="userName"></textarea>
+      <span></span>
 
       <br><input id="post" type="submit" value="Post">
 

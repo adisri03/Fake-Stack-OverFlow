@@ -85,8 +85,8 @@ top: 80px;
 }
 
 .sidenav a:hover {
-  background-color: blue;
-  color: aliceblue;
+  background-color: darkgray;
+  color: blue;
   border-radius: 10px;
 }
 
