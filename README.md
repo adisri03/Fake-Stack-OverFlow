@@ -6,7 +6,8 @@
 1. Search Bar
 2. Header
 3. Fixed question form hiding
-4. Worked on JavaScript  
+4. Fixed Post button
+5. Worked on JavaScript
 
 ## Team Member 2 contribution(Adisri)
 1. Side Bar
