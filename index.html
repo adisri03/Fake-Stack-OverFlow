@@ -28,52 +28,33 @@
   </div>
 
   <div class="q1">
-    
-  </div>
-  <div class="q2">
-    
-  </div>
-  <div class="q3">
-    
+    <p id="test"></p>
+    <script src="src/model.js">
+      document.getElementById("demo").innerHTML = this.data
+    </script>
   </div>
 
   <div class="question">
-    <form class="quest" id="form" onsubmit="return validateQuestionForm()">
+    <form class="quest" id="form">
 
       <h1>Question Title*</h1>
-      <h4 id="titleDetail">Limit title to 100 characters max</h4>
+      <h4 id="titleError">Limit title to 100 chacter max</h4>
       <input type="text" id="questionTitle" name="qTitle">
-<<<<<<< HEAD
       <span id="error1"></span>
-=======
-      <span id="titleError" display = "none">Limit the title to have  between 1 and 100 characters</span>
->>>>>>> ba48f24955b711c56692fc43bc95389c48073e8c
 
       <h1>Question Text*</h1>
-      <h4 id="textDetail"> Add Details</h4>
+      <h4 id="textError"> Add Details</h4>
       <textarea type="text" id="questionText"></textarea>
-<<<<<<< HEAD
       <span id="error2"></span>
-=======
-      <span id="textError" display = "none"> Please fill in details </span>
->>>>>>> ba48f24955b711c56692fc43bc95389c48073e8c
 
       <h1>Tags*</h1>
-      <h4 id="tagDetail"> Add keywords seperated by a space</h4>
+      <h4 id="tagError"> Add keywords seperated by a space</h4>
       <textarea type="text" id="tagText"></textarea>
-<<<<<<< HEAD
       <span id="error3"></span>
 
       <h1>Username*</h1>
       <textarea type="text" id="userName"></textarea>
       <span id="error4"></span>
-=======
-      <span id="tagError" display = "none">Add keywords seperated by a space</span>
-
-      <h1>Username*</h1>
-      <textarea type="text" id="userName"></textarea>
-      <span id="UserError" display = "none">Please fill in username</span>
->>>>>>> ba48f24955b711c56692fc43bc95389c48073e8c
 
       <br><input id="post" type="submit" value="Post">
 
