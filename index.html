@@ -35,26 +35,26 @@
   </div>
 
   <div class="question">
-    <form class="quest" id="form">
+    <form class="quest" id="form" onsubmit="return validateQuestionForm()">
 
       <h1>Question Title*</h1>
       <h4 id="titleError">Limit title to 100 chacter max</h4>
       <input type="text" id="questionTitle" name="qTitle">
-      <span></span>
+      <span id="error1"></span>
 
       <h1>Question Text*</h1>
       <h4 id="textError"> Add Details</h4>
       <textarea type="text" id="questionText"></textarea>
-      <span></span>
+      <span id="error2"></span>
 
       <h1>Tags*</h1>
       <h4 id="tagError"> Add keywords seperated by a space</h4>
       <textarea type="text" id="tagText"></textarea>
-      <span></span>
+      <span id="error3"></span>
 
       <h1>Username*</h1>
       <textarea type="text" id="userName"></textarea>
-      <span></span>
+      <span id="error4"></span>
 
       <br><input id="post" type="submit" value="Post">
 
