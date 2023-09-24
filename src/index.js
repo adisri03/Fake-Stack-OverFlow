@@ -87,6 +87,13 @@ window.onload = function() {
     }
 });
 
+  form.addEventListener('submit', function(event){
+    if (validateQuestionForm() == false){
+      event.preventDefault();
+    }
+  })
+
+  let questions = new Model();
 
 
 
