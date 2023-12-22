@@ -12,8 +12,8 @@ Add design docs in *images/*
 Clone the repository
 
 ```bash
-$ git clone git@github.com:CSE-316-Software-Development/final-project-adam-jason.git
-$ cd final-project-adam-jason
+$ git clone https://github.com/adisri03/Fake-Stack-OverFlow.git
+$ cd final-project-fake-so
 ```
 
 Install dependencies in Client and Server
@@ -68,20 +68,4 @@ Password: abc123
 Rep: 70
 ```
 
-## Team Member 1 Contribution
-- Login Page
-- Welcome Page
-- Register Page
-- Comments
-- User Page/Admin Page
-- Upvoting and Downvoting Answers
-
-## Team Member 2 Contribution
-- Schemas
-- Routes
-- Creating new Users
-- Sending data to database
-- Cookies/Sessions
-- User Page/Admin Page
-- Password Hashing
 
