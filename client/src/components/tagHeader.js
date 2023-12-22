@@ -3,10 +3,6 @@ import axios from 'axios'
 
 
 const Tagheader = ({qarray, tag, setPage, sessionId}) => {
-
-  
-
-
 return (
     <div className='questionHeader'>
       <div className="numQ-questions">

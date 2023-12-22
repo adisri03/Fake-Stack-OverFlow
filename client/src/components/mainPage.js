@@ -78,6 +78,7 @@ const MainPage = ({currentPage, updatePage, currentQ, setCurrentQ, currentQstnAr
           currentQ={currentQ}
           setCurrentQ={setCurrentQ}
           setQstnArray={setQstnArray}
+          sessionId={sessionId}
         />
       )}
       {/*Search Header */}
