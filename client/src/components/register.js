@@ -115,20 +115,20 @@ const Register = ({updatePage}) => {
         <form className='register' id='rForm' onSubmit={handleSubmit}>
 
             <h1>Username</h1>
-            <span id="usernameError" className={errors.username ? 'error' : 'hidden'}>Username not filled in</span>
+            <span id="usernameError" className={errors.username ? 'error' : 'hidden'}>Username is required</span>
             <input type="text" name="username" value={userData.username} onChange={handleInputChange}></input>
             <h1>Email</h1>
-            <span id="emailError" className={errors.email ? 'error' : 'hidden'}>Email not filled in</span>
+            <span id="emailError" className={errors.email ? 'error' : 'hidden'}>Email is required</span>
             <input type="text" name="email" value={userData.email} onChange={handleInputChange}></input>
             <h1>Password</h1>
-            <span id="passwordError" className={errors.password ? 'error' : 'hidden'}>Password not filled in</span>
+            <span id="passwordError" className={errors.password ? 'error' : 'hidden'}>Password is required</span>
             <input type="text" name="password" value={userData.password} onChange={handleInputChange}></input>
             <h1>Verify Password</h1>
             <span id="verPassError" className={errors.verPass ? 'error' : 'hidden'}>Password must match</span>
             <input type="text" name="verPass" value={userData.verPass} onChange={handleInputChange}></input>
             <input id="post" type="submit" value="Register"></input>
-            <span id="registerError" className={errors.register ? 'error' : 'hidden'}>Either the email you entered is not valid
-            or the password contains the email Id or username</span>
+            <span id="registerError" className={errors.register ? 'error' : 'hidden'}>The email you entered is not valid,
+            the password contains part of your email or your username</span>
             <span id="checkError">{checkError}</span>
             <button onClick={handleClick}>Back to Welcome</button>
 
